@@ -32,7 +32,7 @@ import tensorflow as tf
 # An attempt to use TF 2.12.3 did not work (error about libdevice.10.bc).
 # See this link for details:
 # https://github.com/tensorflow/tensorflow/issues/58681
-# The simplest solution was to downgrade to TF 2.9.1, which works works.
+# The simplest solution was to downgrade to TF 2.9.1, which works.
 print("Tensorflow version: {version}".format(version=tf.__version__))
 
 ###############################################################################
